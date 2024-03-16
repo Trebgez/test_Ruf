@@ -29,10 +29,6 @@ class TestWin(QWidget):
         
         # старт:
         self.show()
-    
-    def next_click(self):
-        self.tw = TestWin()
-        self.hide()
 
 
     def connects(self):
